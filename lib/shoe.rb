@@ -1,16 +1,16 @@
 class Shoe
-  attr_accessor :brand, :page_count, :genre
-  attr_reader :title
+  attr_accessor :color, :size, :material, :condition
+  attr_reader :brand 
 
-  def initialize(title)
-    @title = title
+  def initialize(brand)
+    @brand = brand
   end
 
-  def title
-    @title
+  def brand
+    @brand
   end
 
-  def turn_page
+  def cobble
     puts "Flipping the page...wow, you read fast!"
 
   end
